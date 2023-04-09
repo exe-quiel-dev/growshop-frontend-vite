@@ -33,7 +33,7 @@ const Carrousel = () => {
     }
   ];
   return (
-    <div className="slide-container z-0">
+    <div className="slide-container z-0 hidden md:block">
       <Slide>
         {slideImages.map((slideImage, index) => (
           <div key={index} className='bg-black'>
