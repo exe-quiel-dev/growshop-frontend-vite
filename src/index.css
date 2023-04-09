@@ -1,0 +1,15 @@
+@import "react-slideshow-image/dist/styles.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-img {
+  background-size: cover;
+  background-position: 0 -15rem;
+  background-image: linear-gradient(to right, black, transparent), url(../src/imgs/hero-1.jpg);
+}
+
