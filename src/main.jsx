@@ -8,6 +8,8 @@ import Layout from './components/Layout'
 
 import Contacto from './pages/Contacto'
 import Tienda from './pages/Tienda'
+import Producto, {loader as productoLoader} from './pages/Producto'
+
 import Categoria, {loader as categoriasLoader} from './pages/Categoria'
 
 const router = createBrowserRouter([
@@ -27,6 +29,11 @@ const router = createBrowserRouter([
         path: '/tienda/:categoria',
         element: <Categoria />,
         loader: categoriasLoader
+      },
+      {
+        path: '/:productoId/ver',
+        element: <Producto />,
+        loader: productoLoader
       },
       {
         path: '/contacto',

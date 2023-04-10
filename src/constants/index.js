@@ -33,7 +33,8 @@ export const PRODUCTOS_OFERTA = [
     nombre: 'X Bioestimulante (200ml)',
     precio: '3780',
     imagen: image2,
-    categoria: 'fertilizantes e insecticidas'
+    categoria: 'fertilizantes e insecticidas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 2,
@@ -41,7 +42,8 @@ export const PRODUCTOS_OFERTA = [
     nombre: 'Bud Candy (500ml)',
     precio: '12500',
     imagen: image4,
-    categoria: 'fertilizantes e insecticidas'
+    categoria: 'fertilizantes e insecticidas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 3,
@@ -49,7 +51,8 @@ export const PRODUCTOS_OFERTA = [
     nombre: 'Medidor de PH Digital Autocalibrable (New Haze)',
     precio: '3780',
     imagen: image5,
-    categoria: 'hidroponia'
+    categoria: 'hidroponia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 4,
@@ -57,7 +60,8 @@ export const PRODUCTOS_OFERTA = [
     nombre: 'Sustrato (25 lt)',
     precio: '1750',
     imagen: image3,
-    categoria: 'sustratos'
+    categoria: 'sustratos',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   }
 ]
 
@@ -68,7 +72,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Bong de vidrio 19 cm',
     precio: 16000,
     imagen: ultimosProd1,
-    categoria: 'parafernalia'
+    categoria: 'parafernalia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 6,
@@ -76,7 +81,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Cone pack x3 preenrolados',
     precio: 850,
     imagen: ultimosProd2,
-    categoria: 'parafernalia'
+    categoria: 'parafernalia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 7,
@@ -84,7 +90,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Sustrato TS3 70 lt',
     precio: 6600,
     imagen: ultimosProd3,
-    categoria: 'sustratos'
+    categoria: 'sustratos',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 8,
@@ -92,7 +99,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Led mars sunflash 153w',
     precio: 152000,
     imagen: ultimosProd4,
-    categoria: 'iluminacion'
+    categoria: 'iluminacion',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 9,
@@ -100,7 +108,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Carpa 60x60x160',
     precio: 39500,
     imagen: ultimosProd6,
-    categoria: 'carpas'
+    categoria: 'carpas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 10,
@@ -108,7 +117,8 @@ export const ULTIMOS_PRODUCTOS = [
     nombre: 'Extractor turbina 6 pulgadas',
     precio: 23500,
     imagen: ultimosProd5,
-    categoria: 'ventilacion y extraccion'
+    categoria: 'ventilacion y extraccion',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   }
 ]
 
@@ -119,7 +129,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Blunt (x2 u.)',
     precio: 700,
     imagen: imgSemana1,
-    categoria: 'parafernalia'
+    categoria: 'parafernalia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 12,
@@ -127,7 +138,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Air pot 11 lt',
     precio: 2000,
     imagen: imgSemana2,
-    categoria: 'macetas'
+    categoria: 'macetas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 13,
@@ -135,7 +147,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Bioestimulante Revienta Cogollos',
     precio: 3600,
     imagen: imgSemana3,
-    categoria: 'fertilizantes e insecticidas'
+    categoria: 'fertilizantes e insecticidas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 14,
@@ -143,7 +156,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Sobre Boveda p/ Curado',
     precio: 1000,
     imagen: imgSemana4,
-    categoria: 'parafernalia'
+    categoria: 'parafernalia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 15,
@@ -151,7 +165,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Tijera Para Poda / Manicurado',
     precio: 2500,
     imagen: imgSemana5,
-    categoria: 'jardin'
+    categoria: 'jardin',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 16,
@@ -159,7 +174,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Bandeja Raw Small (26 x 17 cm)',
     precio: 4000,
     imagen: imgSemana6,
-    categoria: 'parafernalia'
+    categoria: 'parafernalia',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 17,
@@ -167,7 +183,8 @@ export const PRODUCTOS_SEMANA = [
     nombre: 'Enraizante Deeper Underground (250 ml)',
     precio: 2600,
     imagen: imgSemana7,
-    categoria: 'fertilizantes e insecticidas'
+    categoria: 'fertilizantes e insecticidas',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   }
 ]
 
@@ -178,7 +195,8 @@ export const COMBOS = [
     nombre: 'Combo Bandeja - Sedas - Picador - Filtros N2',
     precio: 5300,
     imagen: combo3,
-    categoria: 'combos y promociones'
+    categoria: 'combos y promociones',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 19,
@@ -186,7 +204,8 @@ export const COMBOS = [
     nombre: 'Kit Fertilizantes Mad Grow x5 (200cc)',
     precio: 7500,
     imagen: combo2,
-    categoria: 'combos y promociones'
+    categoria: 'combos y promociones',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
   {
     id: 20,
@@ -194,7 +213,8 @@ export const COMBOS = [
     nombre: 'Kit Indoor 60: CultivARG ECO 60x60x160 / GrowLed Full Spectrum 200w / Doble Extractor 4" / Poleas / Timer',
     precio: 77800,
     imagen: combo1,
-    categoria: 'combos y promociones'
+    categoria: 'combos y promociones',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
   },
 
 ]

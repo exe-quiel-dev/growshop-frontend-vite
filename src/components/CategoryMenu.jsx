@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { CATEGORIAS } from "../constants"
 
-const Sidebar = () => {
+const CategoryMenu = () => {
   return (
     <>
       <nav className="bg-slate-300 w-full mb-10 shadow border-b-2 py-1">
@@ -15,4 +15,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default CategoryMenu

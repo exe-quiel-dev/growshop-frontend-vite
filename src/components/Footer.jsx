@@ -6,15 +6,15 @@ const Footer = () => {
 
   return (
     <>
-      <div className="flex justify-around bg-green-800 text-white items-center py-5 my-10">
+      <div className="flex flex-col md:flex-row justify-around bg-green-800 text-white items-center py-5 my-10">
         <div>
           <h3 className="font-bold text-lg underline underline-offset-4 mb-3 text-center">Menu</h3>
           <Link to='/' className="mx-2 hover:underline underline-offset-4">Inicio</Link>
           <Link to='/tienda' className="mx-2 hover:underline underline-offset-4">Tienda</Link>
           <Link to='/contacto' className="my- mx-2 hover:underline underline-offset-4">Contacto</Link>
         </div>
-        <div>
-          <h3 className="font-bold text-lg underline underline-offset-4 mb-3">Datos de contacto</h3>
+        <div className="mt-10 md:mt-0">
+          <h3 className="font-bold text-lg underline underline-offset-4 mb-3 text-center">Datos de contacto</h3>
           <p><span className="font-bold mb-2">Whatsapp:</span> +54 9 11-5555-6666</p>
           <p><span className="font-bold">Email:</span> growshop@correo.com</p>
         </div>

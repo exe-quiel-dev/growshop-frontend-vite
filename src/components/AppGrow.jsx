@@ -28,7 +28,9 @@ const App = () => {
                 nombre={producto.nombre}
                 precio={producto.precio}
                 imageSource={producto.imagen}
-                key={producto.id} />
+                key={producto.id}
+                id={producto.id}
+                />
             ))}
           </div>
         </section>
@@ -42,7 +44,9 @@ const App = () => {
                 nombre={producto.nombre}
                 precio={producto.precio}
                 imageSource={producto.imagen}
-                key={producto.id} />
+                key={producto.id}
+                id={producto.id}
+                />
             ))}
           </div>
         </section>
@@ -57,7 +61,9 @@ const App = () => {
                 nombre={producto.nombre}
                 precio={producto.precio}
                 imageSource={producto.imagen}
-                key={producto.id} />
+                key={producto.id}
+                id={producto.id}
+                />
             ))}
           </div>
         </section>

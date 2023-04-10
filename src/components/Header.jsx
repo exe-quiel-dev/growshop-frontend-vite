@@ -27,9 +27,9 @@ const Header = () => {
         </Link>
       </div>
       <div className='text-white text-center mb-10'>
-        <Link to='/' className="mx-2 hover:underline underline-offset- mx-5">Inicio</Link>
-        <Link to='/tienda' className="mx-2 hover:underline underline-offset- mx-5">Tienda</Link>
-        <Link to='/contacto' className="my- mx-2 hover:underline underline-offset- mx-5">Contacto</Link>
+        <Link to='/' className="hover:underline underline-offset- mx-5">Inicio</Link>
+        <Link to='/tienda' className="hover:underline underline-offset- mx-5">Tienda</Link>
+        <Link to='/contacto' className="hover:underline underline-offset- mx-5">Contacto</Link>
       </div>
     </header>
   )
