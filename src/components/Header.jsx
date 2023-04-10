@@ -21,10 +21,15 @@ const Header = () => {
           <FontAwesomeIcon icon={faPhone} className='text-white' />
           <span className='mx-5 text-white'>+54 9 11-5555-6666</span>
         </div>
-        <Link 
+        <Link
           to={'/carrito'}
         ><FontAwesomeIcon icon={faCartShopping} className='text-white w-8 h-8 p-5' />
         </Link>
+      </div>
+      <div className='text-white text-center mb-10'>
+        <Link to='/' className="mx-2 hover:underline underline-offset- mx-5">Inicio</Link>
+        <Link to='/tienda' className="mx-2 hover:underline underline-offset- mx-5">Tienda</Link>
+        <Link to='/contacto' className="my- mx-2 hover:underline underline-offset- mx-5">Contacto</Link>
       </div>
     </header>
   )
