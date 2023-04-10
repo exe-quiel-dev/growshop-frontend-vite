@@ -27,9 +27,6 @@ const Carrousel = () => {
       text: 'Articulos para el cuidado de tus plantas y Articulos para fumarlas.',
       btn1: 'Nuestros Productos',
       btn2: 'Contactanos'
-    },
-    {
-      url: image4
     }
   ];
   return (

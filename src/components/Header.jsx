@@ -5,7 +5,7 @@ import { faEnvelope, faPhone, faCartShopping } from '@fortawesome/free-solid-svg
 
 const Header = () => {
   return (
-    <header className='header-img sticky top-0 z-20 border-b'>
+    <header className='header-img top-0 z-20 border-b'>
       <div className='container flex items-center justify-center mx-auto p-5 flex-col lg:flex-row'>
         <a href='/'><h1><img src={logo} alt='imagen de logo' className='w-28 md:w-44 mx-2' /></h1></a>
         <input
