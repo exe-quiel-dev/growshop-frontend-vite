@@ -1,10 +1,12 @@
 import { useLoaderData } from "react-router-dom"
 import { TODOS_LOS_PRODUCTOS } from "../constants";
 import { formatearMoneda } from "../helpers/formatearMoneda";
+
 import CategoryMenu from "../components/CategoryMenu";
 import Separator from "../components/Separator";
-import { PRODUCTOS_SEMANA } from "../constants";
 import ProductCard from "../components/ProductCard";
+
+import { PRODUCTOS_SEMANA } from "../constants";
 
 export async function loader({ params }) {
   return { params }
@@ -22,7 +24,8 @@ function Producto() {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-center bg-white my-10 shadow rounded-lg">
         <img src={imagen} alt={`imagen de ${nombre}`} className="w-3/5 p-5 mx-auto" />
         <div className="flex flex-col p-8 justify-center items-center">
-          <h2 className="text-4xl font-black text-black text-center py-10">{nombre}</h2>
+          <h2 className="text-4xl font-black text-black text-center pt-10">{nombre}</h2>
+          <h3 className="uppercase text-lg text-gray-400 font-bold">{marca}</h3>
           <p className="text-center border-b p-5 text-lg">{desc}</p>
           <p className="text-4xl mt-5">{formatearMoneda(Number(precio))}</p>
           <button className='border-2 border-gray-600 hover:bg-green-600 transition-colors w-1/2 py-2 p-1 mt-10'>Agregar al Carrito</button>

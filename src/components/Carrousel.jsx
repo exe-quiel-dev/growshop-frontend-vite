@@ -3,7 +3,6 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import image1 from '../imgs/banner1.jpg'
 import image3 from '../imgs/banner3.webp'
-import image4 from '../imgs/banner4.jpg'
 
 const Carrousel = () => {
   const divStyle = {

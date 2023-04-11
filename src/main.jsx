@@ -8,9 +8,11 @@ import Layout from './components/Layout'
 
 import Contacto from './pages/Contacto'
 import Tienda from './pages/Tienda'
-import Producto, {loader as productoLoader} from './pages/Producto'
+import Producto, { loader as productoLoader } from './pages/Producto'
+import Categoria, { loader as categoriasLoader } from './pages/Categoria'
+import Carrito from './pages/Carrito'
 
-import Categoria, {loader as categoriasLoader} from './pages/Categoria'
+import { ProductoProvider } from './context/ProductoProvider'
 
 const router = createBrowserRouter([
   {
@@ -38,14 +40,20 @@ const router = createBrowserRouter([
       {
         path: '/contacto',
         element: <Contacto />
+      },
+      {
+        path: '/carrito',
+        element: <Carrito />
       }
     ]
   },
-  
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <ProductoProvider>
+      <RouterProvider router={router} />
+    </ProductoProvider>
   </React.StrictMode>
 )
