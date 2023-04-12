@@ -1,21 +1,25 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 
 const ProductoContext = createContext();
 
 const ProductoProvider = ({ children }) => {
-  const [carrito, setCarrito] = useState([])
+  const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carrito')) || [])
+
+  useEffect(() => {
+    sincronizarStorage()
+  }, [carrito])
 
   const sincronizarStorage = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito)); 
   }
 
-
   const agregarCarrito = (prod) => {
+
     const { nombre, precio, imageSource, id, marca } = prod;
     const productoSeleccionado = {
       nombre,
       precio,
-      imagen: imageSource,
+      imageSource,
       id,
       marca,
       cantidad: 1
@@ -41,9 +45,9 @@ const ProductoProvider = ({ children }) => {
     
   }
 
-
   const eliminarProducto = (id) => {
-    setCarrito(carrito.filter(producto => producto.id !== id ));
+    const carritoActualizado = carrito.filter(producto => producto.id !== id )
+    setCarrito(carritoActualizado);
     sincronizarStorage()
   } 
   
@@ -51,9 +55,9 @@ const ProductoProvider = ({ children }) => {
   return (
     <ProductoContext.Provider
       value={{
-        agregarCarrito,
         eliminarProducto,
         carrito,
+        setCarrito,
         agregarCarrito,
         sincronizarStorage,
       }}

@@ -29,7 +29,7 @@ const AppGrow = () => {
                   marca={producto.marca}
                   nombre={producto.nombre}
                   precio={producto.precio}
-                  imageSource={producto.imagen}
+                  imageSource={producto.imageSource}
                   key={producto.id}
                   id={producto.id}
                 />
@@ -45,7 +45,7 @@ const AppGrow = () => {
                   marca={producto.marca}
                   nombre={producto.nombre}
                   precio={producto.precio}
-                  imageSource={producto.imagen}
+                  imageSource={producto.imageSource}
                   key={producto.id}
                   id={producto.id}
                 />
@@ -62,7 +62,7 @@ const AppGrow = () => {
                   marca={producto.marca}
                   nombre={producto.nombre}
                   precio={producto.precio}
-                  imageSource={producto.imagen}
+                  imageSource={producto.imageSource}
                   key={producto.id}
                   id={producto.id}
                 />

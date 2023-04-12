@@ -5,7 +5,9 @@ import ProductoContext from "../context/ProductoProvider";
 
 const ProductCard = ({ marca, nombre, precio, imageSource, id }) => {
   const navigate = useNavigate();
-  const {agregarCarrito, carrito} = useContext(ProductoContext);
+  const { agregarCarrito } = useContext(ProductoContext);
+  
+  
 
   return (
     <div className="grid gap-4 bg-white p-5 text-center shadow hover:shadow-lg hover:cursor-pointer transition-shadow w-4/5 mx-auto justify-center items-center max-h-1/4">
@@ -18,7 +20,7 @@ const ProductCard = ({ marca, nombre, precio, imageSource, id }) => {
         <span className='py-2 font-bold'>{formatearMoneda(Number(precio))}</span>
         <div className="flex flex-col mt-5">
           <button className='border-2 hover:bg-green-600 transition-colors w-full py-2 p-1' onClick={() => navigate(`/${id}/ver`)}>Ver Producto</button>
-          <button className='border-2 hover:bg-green-600 transition-colors w-full py-2 p-1 mt-5' onClick={() => {agregarCarrito({nombre, precio, imageSource, id, marca})}}>Agregar al Carrito</button>
+          <button className='border-2 hover:bg-green-600 transition-colors w-full py-2 p-1 mt-5' onClick={() => {agregarCarrito({marca,nombre,precio,imageSource,id})}}>Agregar al Carrito</button>
         </div>
       </div>
     </div>

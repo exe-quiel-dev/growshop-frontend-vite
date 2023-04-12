@@ -32,36 +32,40 @@ export const PRODUCTOS_OFERTA = [
     marca: 'Pot',
     nombre: 'X Bioestimulante (200ml)',
     precio: '3780',
-    imagen: image2,
+    imageSource: image2,
     categoria: 'fertilizantes e insecticidas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 2,
     marca: 'Advanced Nutrients',
     nombre: 'Bud Candy (500ml)',
     precio: '12500',
-    imagen: image4,
+    imageSource: image4,
     categoria: 'fertilizantes e insecticidas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 3,
     marca: 'Hidroponia',
     nombre: 'Medidor de PH Digital Autocalibrable (New Haze)',
     precio: '3780',
-    imagen: image5,
+    imageSource: image5,
     categoria: 'hidroponia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 4,
     marca: 'Eden',
     nombre: 'Sustrato (25 lt)',
     precio: '1750',
-    imagen: image3,
+    imageSource: image3,
     categoria: 'sustratos',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   }
 ]
 
@@ -71,54 +75,60 @@ export const ULTIMOS_PRODUCTOS = [
     marca: 'Pyrex',
     nombre: 'Bong de vidrio 19 cm',
     precio: 16000,
-    imagen: ultimosProd1,
+    imageSource: ultimosProd1,
     categoria: 'parafernalia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 6,
     marca: 'Raw',
     nombre: 'Cone pack x3 preenrolados',
     precio: 850,
-    imagen: ultimosProd2,
+    imageSource: ultimosProd2,
     categoria: 'parafernalia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 7,
     marca: 'Klassman',
     nombre: 'Sustrato TS3 70 lt',
     precio: 6600,
-    imagen: ultimosProd3,
+    imageSource: ultimosProd3,
     categoria: 'sustratos',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 8,
     marca: 'Mars',
     nombre: 'Led mars sunflash 153w',
     precio: 152000,
-    imagen: ultimosProd4,
+    imageSource: ultimosProd4,
     categoria: 'iluminacion',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 9,
-    marca: 'Carpa',
-    nombre: 'Carpa 60x60x160',
+    marca: 'CultivArg',
+    nombre: 'Carpa 60x60',
     precio: 39500,
-    imagen: ultimosProd6,
+    imageSource: ultimosProd6,
     categoria: 'carpas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 10,
     marca: 'Extractor',
     nombre: 'Extractor turbina 6 pulgadas',
     precio: 23500,
-    imagen: ultimosProd5,
+    imageSource: ultimosProd5,
     categoria: 'ventilacion y extraccion',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   }
 ]
 
@@ -128,63 +138,70 @@ export const PRODUCTOS_SEMANA = [
     marca: 'Rolling Lion Circus',
     nombre: 'Blunt (x2 u.)',
     precio: 700,
-    imagen: imgSemana1,
+    imageSource: imgSemana1,
     categoria: 'parafernalia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 12,
     marca: 'Air pot',
     nombre: 'Air pot 11 lt',
     precio: 2000,
-    imagen: imgSemana2,
+    imageSource: imgSemana2,
     categoria: 'macetas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 13,
     marca: 'Revienta Cogollos',
     nombre: 'Bioestimulante Revienta Cogollos',
     precio: 3600,
-    imagen: imgSemana3,
+    imageSource: imgSemana3,
     categoria: 'fertilizantes e insecticidas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 14,
     marca: 'Boveda',
     nombre: 'Sobre Boveda p/ Curado',
     precio: 1000,
-    imagen: imgSemana4,
+    imageSource: imgSemana4,
     categoria: 'parafernalia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 15,
     marca: 'Tijera Para Poda / Manicurado',
     nombre: 'Tijera Para Poda / Manicurado',
     precio: 2500,
-    imagen: imgSemana5,
+    imageSource: imgSemana5,
     categoria: 'jardin',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 16,
     marca: 'Raw',
     nombre: 'Bandeja Raw Small (26 x 17 cm)',
     precio: 4000,
-    imagen: imgSemana6,
+    imageSource: imgSemana6,
     categoria: 'parafernalia',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 17,
     marca: 'Top Crop',
     nombre: 'Enraizante Deeper Underground (250 ml)',
     precio: 2600,
-    imagen: imgSemana7,
+    imageSource: imgSemana7,
     categoria: 'fertilizantes e insecticidas',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   }
 ]
 
@@ -194,27 +211,30 @@ export const COMBOS = [
     marca: 'Raw | Rollin',
     nombre: 'Combo Bandeja - Sedas - Picador - Filtros N2',
     precio: 5300,
-    imagen: combo3,
+    imageSource: combo3,
     categoria: 'combos y promociones',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 19,
     marca: 'Mad Grow',
     nombre: 'Kit Fertilizantes Mad Grow x5 (200cc)',
     precio: 7500,
-    imagen: combo2,
+    imageSource: combo2,
     categoria: 'combos y promociones',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
   {
     id: 20,
     marca: 'CultivArg',
-    nombre: 'Kit Indoor 60: CultivARG ECO 60x60x160 / GrowLed Full Spectrum 200w / Doble Extractor 4" / Poleas / Timer',
+    nombre: 'Kit Indoor 60x60',
     precio: 77800,
-    imagen: combo1,
+    imageSource: combo1,
     categoria: 'combos y promociones',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.'
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate eget orci eget accumsan. Donec malesuada, nisl nec egestas lobortis, felis massa iaculis purus, a ultrices magna ante quis ligula. Maecenas quis porta tellus. Nullam dignissim vehicula convallis. Aenean dictum massa felis, eu cursus libero sagittis nec. Maecenas eu consequat magna. Nam maximus sagittis eros nec laoreet. Curabitur euismod lectus ultricies urna maximus, nec molestie justo egestas. Praesent non libero ac tellus placerat rutrum non vitae tortor. Etiam vitae erat eu quam pulvinar mattis. Pellentesque laoreet sem in ex dictum vestibulum. Etiam ut ultrices odio. Phasellus sit amet ultricies diam, non auctor diam. Quisque nec scelerisque nunc.',
+    cantidad: 1
   },
 
 ]

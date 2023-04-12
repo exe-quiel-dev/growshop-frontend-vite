@@ -1,4 +1,4 @@
-import { useEffect, useContext, useState } from "react";
+import { useContext, useEffect } from "react";
 import { TODOS_LOS_PRODUCTOS } from "../constants"
 import ProductoCarrito from "../components/ProductoCarrito";
 import { formatearMoneda } from "../helpers/formatearMoneda";
@@ -12,8 +12,12 @@ export async function loader({ params }) {
 }
 
 const Carrito = () => {
-  const { carrito } = useContext(ProductoContext)
+  const { carrito, setCarrito } = useContext(ProductoContext)
   let total = 0;
+
+  // useEffect(() => {
+  //   setCarrito(JSON.parse(localStorage.getItem('carrito')))
+  // }, [])
 
   if (carrito?.length > 0) {
     carrito.map(producto => {
@@ -22,13 +26,12 @@ const Carrito = () => {
     })
   }
 
-
   return (
     <main>
       <div className="container mx-auto items-center bg-white my-10 shadow rounded-lg">
         {carrito?.length > 0 ? carrito.map(productoCarrito => (
           <ProductoCarrito
-            imagen={productoCarrito.imagen}
+            imageSource={productoCarrito.imageSource}
             nombre={productoCarrito.nombre}
             subtotal={productoCarrito.precio * productoCarrito.cantidad}
             key={productoCarrito.id}

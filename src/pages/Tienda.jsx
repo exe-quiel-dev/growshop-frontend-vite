@@ -4,6 +4,8 @@ import CategoryMenu from '../components/CategoryMenu';
 import { TODOS_LOS_PRODUCTOS } from "../constants";
 
 const Tienda = () => {
+  
+  
 
   return (
     <>
@@ -17,7 +19,7 @@ const Tienda = () => {
             marca={producto.marca}
             nombre={producto.nombre}
             precio={producto.precio}
-            imageSource={producto.imagen}
+            imageSource={producto.imageSource}
             key={producto.id}
             id={producto.id}
           />

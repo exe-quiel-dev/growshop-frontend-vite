@@ -22,7 +22,7 @@ const Categoria = () => {
             marca={producto.marca}
             nombre={producto.nombre}
             precio={producto.precio}
-            imageSource={producto.imagen}
+            imageSource={producto.imageSource}
             key={producto.nombre}
             id={producto.id}
           />
