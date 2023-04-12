@@ -10,6 +10,7 @@ import Info from './Info';
 import Carrousel from './Carrousel';
 
 const AppGrow = () => {
+  
   return (
     <>
         <main>

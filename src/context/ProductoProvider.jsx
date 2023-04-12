@@ -1,10 +1,14 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 const ProductoContext = createContext();
 
 const ProductoProvider = ({ children }) => {
-  // const [carrito, setCarrito] = useState([]);
-  let carrito = [];
+  const [carrito, setCarrito] = useState([])
+
+  const sincronizarStorage = () => {
+    localStorage.setItem('carrito', JSON.stringify(carrito)); 
+  }
+
 
   const agregarCarrito = (prod) => {
     const { nombre, precio, imageSource, id, marca } = prod;
@@ -28,20 +32,30 @@ const ProductoProvider = ({ children }) => {
           return producto
         }
       })
-      carrito = [...productos]
-      localStorage.setItem('carrito', JSON.stringify(carrito))
+      setCarrito([...productos])
+      sincronizarStorage()
     } else {
-      carrito = [...carrito, productoSeleccionado]
-      localStorage.setItem('carrito', JSON.stringify(carrito))
+      setCarrito([...carrito, productoSeleccionado])
+      sincronizarStorage()
     }
-  
+    
   }
+
+
+  const eliminarProducto = (id) => {
+    setCarrito(carrito.filter(producto => producto.id !== id ));
+    sincronizarStorage()
+  } 
+  
 
   return (
     <ProductoContext.Provider
       value={{
         agregarCarrito,
+        eliminarProducto,
         carrito,
+        agregarCarrito,
+        sincronizarStorage,
       }}
     >
       {children}

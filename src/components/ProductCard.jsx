@@ -5,7 +5,7 @@ import ProductoContext from "../context/ProductoProvider";
 
 const ProductCard = ({ marca, nombre, precio, imageSource, id }) => {
   const navigate = useNavigate();
-  const {agregarCarrito} = useContext(ProductoContext);
+  const {agregarCarrito, carrito} = useContext(ProductoContext);
 
   return (
     <div className="grid gap-4 bg-white p-5 text-center shadow hover:shadow-lg hover:cursor-pointer transition-shadow w-4/5 mx-auto justify-center items-center max-h-1/4">

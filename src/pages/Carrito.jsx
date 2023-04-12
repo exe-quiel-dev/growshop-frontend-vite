@@ -1,7 +1,10 @@
+import { useEffect, useContext, useState } from "react";
 import { TODOS_LOS_PRODUCTOS } from "../constants"
 import ProductoCarrito from "../components/ProductoCarrito";
 import { formatearMoneda } from "../helpers/formatearMoneda";
 import CarritoVacio from "../components/CarritoVacio";
+import ProductoContext from "../context/ProductoProvider";
+
 
 export async function loader({ params }) {
   const productoSeleccionado = TODOS_LOS_PRODUCTOS.find(producto => producto.id === Number(params.productoId));
@@ -9,15 +12,16 @@ export async function loader({ params }) {
 }
 
 const Carrito = () => {
-  const carrito = JSON.parse(localStorage.getItem('carrito'));
+  const { carrito } = useContext(ProductoContext)
   let total = 0;
 
-  if(carrito?.length > 0) {
+  if (carrito?.length > 0) {
     carrito.map(producto => {
       const subtotal = producto.precio * producto.cantidad;
       total += subtotal
     })
   }
+
 
   return (
     <main>
@@ -27,7 +31,8 @@ const Carrito = () => {
             imagen={productoCarrito.imagen}
             nombre={productoCarrito.nombre}
             subtotal={productoCarrito.precio * productoCarrito.cantidad}
-            key={productoCarrito.nombre}
+            key={productoCarrito.id}
+            id={productoCarrito.id}
             marca={productoCarrito.marca}
             cantidad={productoCarrito.cantidad} />
         )) : (
